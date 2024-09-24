@@ -1,20 +1,5 @@
 
 export function add (expression: string) {
+return expression;
 
-  let number = Number(expression);
-  let result = ''
-
-  if(number %3 ===0){
-    result += 'Fizz';
-  }
-
-  if(number %5 ===0){
-    result += 'Buzz';
-  }
-
-  return result||expression;
-
-  }
-
-
-
+}
