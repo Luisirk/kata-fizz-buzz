@@ -19,6 +19,10 @@ describe("fizz-fuzz", () => {
 
     expect(add("5")).toBe('Fuzz');
   });
+  it ('returns Fizz when expression is multiple of 3',()=>{
+
+    expect(add("6")).toBe('Fizz');
+  });
 
 
 });
