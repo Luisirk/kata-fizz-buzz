@@ -25,7 +25,7 @@ describe("fizz-fuzz", () => {
   });
   it ('returns Fizz when expression is multiple of 3',()=>{
 
-    expect(add("%3")).toBe('Fizz');
+    expect(add("6")).toBe('Fizz');
   });
 
 });
