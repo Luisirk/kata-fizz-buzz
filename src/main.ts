@@ -4,6 +4,7 @@ export function add (expression: string) {
     if (number === 3) {
         return 'Fizz'
     }
+
     return expression
 
 
