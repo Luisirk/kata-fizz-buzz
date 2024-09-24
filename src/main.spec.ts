@@ -31,5 +31,9 @@ describe("fizz-fuzz", () => {
 
     expect(add("10")).toBe('Buzz');
   });
+  it ('returns FizzFuzz when expression is multiple of 3 and 5',()=>{
+
+    expect(add("15")).toBe('FizzBuzz');
+  });
 
 });
