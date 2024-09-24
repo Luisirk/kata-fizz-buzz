@@ -4,6 +4,7 @@ export function add (expression: string) {
     if (number === 2){
         return '2'
     }
+
     return '1';
 
 
