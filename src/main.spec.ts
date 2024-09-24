@@ -23,6 +23,10 @@ describe("fizz-fuzz", () => {
 
     expect(add("6")).toBe('Fizz');
   });
+  it ('returns Fuzz when expression is multiple of 5',()=>{
+
+    expect(add("10")).toBe('Fuzz');
+  });
 
 
 });
