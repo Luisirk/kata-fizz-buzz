@@ -19,5 +19,9 @@ describe("fizz-fuzz", () => {
 
     expect(add("4")).toBe('4');
   });
+  it ('returns Buzz when expression is 5',()=>{
+
+    expect(add("5")).toBe('Buzz');
+  });
 
 });
