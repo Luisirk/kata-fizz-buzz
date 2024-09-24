@@ -11,9 +11,13 @@ describe("fizz-fuzz", () => {
 
     expect(add("2")).toBe('2');
   });
-  it ('returns FizzBuzz when expression is 3',()=>{
+  it ('returns Fizz when expression is 3',()=>{
 
-    expect(add("3")).toBe('FizzBuzz');
+    expect(add("3")).toBe('Fizz');
+  });
+  it ('returns 4 when expression is 4',()=>{
+
+    expect(add("4")).toBe('4');
   });
 
 });
