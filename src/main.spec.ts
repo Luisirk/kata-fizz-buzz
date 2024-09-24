@@ -5,6 +5,6 @@ describe("fizz-fuzz", () => {
 
   it ('returns 1 when expression is 1',()=>{
 
-    expect(add("FizzBuzz")).toBe('1');
+    expect(add("1")).toBe('1');
   });
 });
