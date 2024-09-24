@@ -1,15 +1,21 @@
 
 export function add (expression: string) {
 
-  if(expression === '2') {
-    return '2';
-  }
-  if(expression === '3') {
-    return 'Fizz';
-  }
-  if(expression === '4') {
-    return '4';
-  }
+  let number = Number(expression);
 
-  return '1';
+  if(number !==  3){
+    return expression;
+  }
+  return 'Fizz';
+  // if(expression === '2') {
+  //   return '2';
+  // }
+  // if(expression === '3') {
+  //   return 'Fizz';
+  // }
+  // if(expression === '4') {
+  //   return '4';
+  // }
+  //
+  // return '1';
 }
