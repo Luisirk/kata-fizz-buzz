@@ -3,9 +3,14 @@ export function add (expression: string) {
 
   let number = Number(expression);
 
-  if(number !==  3){
-    return expression;
+  if(number == 3 ){
+    return 'Fizz';
   }
-  return 'Fizz';
+  if(number == 5 ){
+    return 'Buzz';
+  }
+  return expression;
 
-}
+  }
+
+
