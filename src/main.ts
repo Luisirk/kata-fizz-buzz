@@ -4,6 +4,9 @@ export function add (expression: string) {
     if (number === 3) {
         return 'Fizz'
     }
+    if (number === 5) {
+        return 'Fuzz'
+    }
 
     return expression
 
